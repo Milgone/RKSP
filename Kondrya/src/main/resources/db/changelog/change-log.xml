@@ -25,4 +25,4 @@ dbms="postgresql">
             splitStatements="true"
             stripComments="true"
         />
-</databaseChangeLog>    
+</databaseChangeLog>
