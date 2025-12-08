@@ -3,7 +3,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
-    <changeSet runAlways="true" author="Kondrya" id="script1"
+    <changeSet runAlways="false" author="Kondrya" id="script1">
 dbms="postgresql">
     <sqlFile dbms="postgresql"
             path="scripts/script1.sql"
@@ -15,4 +15,14 @@ dbms="postgresql">
         />
         <comment>Создание первой таблицы</comment>
     </changeSet>
+    <changeSet runAlways="true" author="Kondrya" id="script2"> 
+dbms="postgresql">
+    <sqlFile dbms="postgresql"
+            path="scripts/script2.sql"
+            ncoding="UTF-8"
+            endDelimiter="/"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"
+        />
 </databaseChangeLog>    
