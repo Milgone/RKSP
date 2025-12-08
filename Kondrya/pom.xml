@@ -89,3 +89,6 @@
 	<groupId>org.postgresql</groupId>
 	<artifactId>postgresql</artifactId>
 </dependency>
+spring.liquibase.change-log=classpath:/db/changelog/change-log.xml
+spring.liquibase.liquibase-schema=public
+spring.liquibase.enabled=false
