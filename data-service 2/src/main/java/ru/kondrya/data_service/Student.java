@@ -1,3 +1,7 @@
+import lombok.Getter;
+import lombok.Setter;
+import jakarta.persistence.*;
+
 @Getter
 @Setter
 @Entity
